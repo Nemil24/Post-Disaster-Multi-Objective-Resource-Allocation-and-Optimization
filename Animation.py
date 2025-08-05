@@ -14,6 +14,7 @@ ROUTE_WEIGHT = "length"   # or "length"
 
 
 # === Load saved road network graph ===
+# Add the path to your graphml file.
 graph_path = r"D:\OneDrive\Desktop\Coding\Python\BTP\Saved_graph\jaipur_drive2.graphml"
 print("⏳ Loading saved Jaipur graph...")
 G = ox.load_graphml(graph_path)
